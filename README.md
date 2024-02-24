@@ -1,11 +1,8 @@
-Pagina de Apresentação/Portfólio de Felipe Hunter.
+# React + Vite
 
-Hard Skills:
-* Web (HTML, CSS, JAVASCRIPT, REACT, REACT NATIVE e C#)
-* Games (UNITY ENGINE, C-SHARP)
-* Banco de dados (SQL)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Soft Skills:
-* Organização
-* Team work
-* Inglês (B2)
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
