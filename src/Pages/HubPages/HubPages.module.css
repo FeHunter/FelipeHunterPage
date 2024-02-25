@@ -1,0 +1,32 @@
+.page {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 100%;
+    grid-template-areas: 'aside content';
+    color: white;
+}
+
+.aside {
+    grid-area: aside;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+}
+
+.ButtonsArea {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    /* background-color: darkgray; */
+}
+
+.content {
+    grid-area: content;
+}
