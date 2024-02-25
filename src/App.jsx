@@ -12,9 +12,9 @@ function App() {
 
   return (
     <div style={{width: '100vw', height: '100vh'}}>
-      <FrontPage images={images} />
+      {/* <FrontPage images={images} /> */}
       {/* <HardSkillPage images={images} /> */}
-      {/* <HubPages images={images} /> */}
+      <HubPages images={images} />
     </div>
   )
 }
